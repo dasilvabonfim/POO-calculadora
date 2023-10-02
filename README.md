@@ -1,27 +1,36 @@
-Aplicativo de Calculadora
+# Aplicativo de Calculadora
+
 Este projeto é um aplicativo de calculadora simples desenvolvido como parte de uma tarefa de Programação Orientada a Objetos (POO) para o curso de Análise e Projeto de Software.
 
-Estrutura do Projeto
+## Estrutura do Projeto
+
 O projeto é estruturado em várias classes TypeScript, cada uma representando um componente diferente da calculadora.
 
-Calculadora
-A classe Calculadora é a classe principal que une todos os componentes. Ela possui um objeto Teclado, Tela e Cpu, e usa esses para realizar cálculos com base nos pressionamentos de botões.
+### `Calculadora`
 
-Teclado
-A classe Teclado representa o teclado da calculadora. Ela mantém uma lista de objetos Botao e fornece um método para simular o pressionamento de um botão.
+A classe `Calculadora` é a classe principal que une todos os componentes. Ela possui um objeto `Teclado`, `Tela` e `Cpu`, e usa esses para realizar cálculos com base nos pressionamentos de botões.
 
-Tela
-A classe Tela representa a tela da calculadora. Ela fornece métodos para exibir o resultado de um cálculo e para limpar a tela.
+### `Teclado`
 
-Cpu
-A classe Cpu realiza os cálculos reais. Ela recebe uma expressão como entrada e retorna o resultado do cálculo.
+A classe `Teclado` representa o teclado da calculadora. Ela mantém uma lista de objetos `Botao` e fornece um método para simular o pressionamento de um botão.
 
-Botao
-A classe Botao representa um botão no teclado da calculadora. Cada botão tem um valor, que pode ser recuperado usando o método obterValor.
+### `Tela`
 
-Uso
-Para usar a calculadora, crie uma nova instância da classe Calculadora e use o método pressionarBotao para simular pressionamentos de botões. Por exemplo:
+A classe `Tela` representa a tela da calculadora. Ela fornece métodos para exibir o resultado de um cálculo e para limpar a tela.
 
+### `Cpu`
+
+A classe `Cpu` realiza os cálculos reais. Ela recebe uma expressão como entrada e retorna o resultado do cálculo.
+
+### `Botao`
+
+A classe `Botao` representa um botão no teclado da calculadora. Cada botão tem um valor, que pode ser recuperado usando o método `obterValor`.
+
+## Uso
+
+Para usar a calculadora, crie uma nova instância da classe `Calculadora` e use o método `pressionarBotao` para simular pressionamentos de botões. Por exemplo:
+
+```typescript
 const calculadora = new Calculadora();
 calculadora.pressionarBotao("2");
 calculadora.pressionarBotao("+");
@@ -38,3 +47,4 @@ Para compilar e executar o projeto, use os seguintes scripts npm:
 
 npm run build: Compila o código TypeScript em JavaScript.
 npm run start: Executa o código JavaScript compilado.
+Por favor, note que este é um arquivo README básico para o seu projeto. Dependendo dos requisitos do seu projeto, você pode precisar adicionar mais seções como Instalação, Testes, Contribuição, etc.
