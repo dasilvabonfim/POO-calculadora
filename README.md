@@ -36,7 +36,6 @@ calculadora.pressionarBotao("2");
 calculadora.pressionarBotao("+");
 calculadora.pressionarBotao("2");
 calculadora.pressionarBotao("=");
-Copiar
 Isso realizará o cálculo 2 + 2 e exibirá o resultado na tela.
 
 Dependências
@@ -47,4 +46,3 @@ Para compilar e executar o projeto, use os seguintes scripts npm:
 
 npm run build: Compila o código TypeScript em JavaScript.
 npm run start: Executa o código JavaScript compilado.
-Por favor, note que este é um arquivo README básico para o seu projeto. Dependendo dos requisitos do seu projeto, você pode precisar adicionar mais seções como Instalação, Testes, Contribuição, etc.
